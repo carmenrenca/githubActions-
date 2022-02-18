@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+.header{
+    background: black;
+    height: 69px;
+    width: 100%;
+    display: flex;
+  align-items: center;
+  border-bottom: 10px solid #85BC29;
+
+}
+.header_logo_img{
+    height: 40px;
+}
+.header_logo{
+    margin-left: 31px;
+}

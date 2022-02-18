@@ -1,0 +1,15 @@
+{ 
+    "urls": [
+        "https://es.wikipedia.org/wiki/Wikipedia:Portada",
+        "https://es.wikipedia.org/wiki/Apple",
+        {
+            "url": "https://es.wikipedia.org/wiki/Steve_Jobs",
+            "timeout": 50000, 
+            "actions":[
+                "screen capture myDir/capture-wikipedia-Steve-Jobs.png",
+                "navigate to https://es.wikipedia.org/wiki/Safari_(navegador)",
+                "screen capture myDir/capture-wikipedia-safari.png"
+            ]
+        }
+    ]
+}
